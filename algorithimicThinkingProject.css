@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: sans-serif;
+   background-image: url(cooled.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.heading .one{
+    text-decoration: overline;
+    text-transform: uppercase;
+    color: rgb(228, 228, 5);
+    font-size: 40px;
+    transition: cursor 0.5s ease,text-decoration 0.5s ease, text-transform 0.5s ease , font-size 0.5s ease,font-family 0.4s ease, color 0.5s ease;
+}
+.heading .two{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(208, 188, 10);
+    margin-bottom: 30px;
+    transition: cursor 0.5s ease,text-decoration 0.5s ease, text-transform 0.5s ease , font-size 0.5s ease,font-family 0.4s ease, color 0.5s ease;
+}
+
+.heading .one:hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: monospace;
+    color: rgb(115, 79, 2);
+    cursor: grab;
+    
+}
+.heading .two:hover{
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(233, 17, 25);
+    cursor: grab;
+}
+.question{
+    background-color: rgb(31, 24, 15);
+    margin: auto;width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    border-radius: 30px;
+    transition: font-size 0.4s ease, width 0.5s ease;
+}
+.question .description{
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: white;
+    padding: 30px;
+    margin-top: 0;
+   transition: font-size 0.5s ease;
+
+}
+.question .description:hover{
+    font-size: 21px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-bottom: 0;
+ 
+        }
+.question .que{
+    font-family: monospace;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgb(173, 108, 21);
+}
+.question:hover{
+  
+width: 70%;
+background-color: rgb(53, 45, 3);
+
+}
+.question .de{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.question .qe{
+    color: bisque;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
